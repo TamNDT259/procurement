@@ -1,47 +1,47 @@
 # Homework 1 - *Name of App*
 
-**Name of your app** ÄÃ¢y lÃ  trang web cho phÃ©p ngÆ°á»i dÃ¹ng viáº¿t blog. Thá»i gian ná»™p: 0h ngÃ y 3/10
+**Name of your app** Đây là trang web cho phép người dùng viết blog. Thời gian nộp: 0h ngày 3/10
 
-Danh sÃ¡ch sinh viÃªn: **Your Name Here**
+Danh sách sinh viên: **Your Name Here**
 
 URL: **Insert your Heroku URL here**
 
-## Chá»©c nÄƒng
+## Chức năng
 
-Danh sÃ¡ch chá»©c nÄƒng **báº¯t buá»™c**:
+Danh sách chức năng **bắt buộc**:
 
-* [ ] NgÆ°á»i dÃ¹ng cÃ³ thá»ƒ táº¡o bÃ i blog má»›i.
-* [ ] NgÆ°á»i dÃ¹ng cÃ³ thá»ƒ cáº­p nháº­t láº¡i ná»™i dung bÃ i blog.
-* [ ] NgÆ°á»i dÃ¹ng cÃ³ thá»ƒ thÃªm comment vÃ o cÃ¡c bÃ i Ä‘Äƒng.
-* [ ] Sá»­ dá»¥ng bootstrap Ä‘á»ƒ táº¡o layout cho trang web. Sá»­ dá»¥ng [Bootstrap](https://rubygems.org/gems/bootstrap/versions/4.0.0.alpha3).
-* [ ] BÃ i Ä‘Äƒng sáº½ Ä‘Æ°á»£c format báº±ng markdown. Sá»­ dá»¥ng [RedCarpet gem](https://github.com/vmg/redcarpet).
+* [ ] Người dùng có thể tạo bài blog mới.
+* [ ] Người dùng có thể cập nhật lại nội dung bài blog.
+* [ ] Người dùng có thể thêm comment vào các bài đăng.
+* [ ] Sử dụng bootstrap để tạo layout cho trang web. Sử dụng [Bootstrap](https://rubygems.org/gems/bootstrap/versions/4.0.0.alpha3).
+* [ ] Bài đăng sẽ được format bằng markdown. Sử dụng [RedCarpet gem](https://github.com/vmg/redcarpet).
 
-Danh sÃ¡ch chá»©c nÄƒng **phá»¥**:
+Danh sách chức năng **phụ**:
 
-* [ ] NgÆ°á»i dÃ¹ng cÃ³ thá»ƒ xÃ³a cÃ¡c bÃ i Ä‘Ã£ Ä‘Äƒng vÃ  cÃ³ hiá»‡n cÃ¢u há»i yÃªu cáº§u xÃ¡c nháº­n láº¡i trÆ°á»›c khi xÃ³a.
-* [ ] NgÆ°á»i dÃ¹ng cÃ³ thá»ƒ tÃ¬m kiáº¿m cÃ¡c bÃ i Ä‘Äƒng cÃ³ tiÃªu Ä‘á» chá»©a tá»« khÃ³a ngÆ°á»i dÃ¹ng Ä‘Ã£ nháº­p.
-* [ ] NgÆ°á»i dÃ¹ng Ä‘Æ°á»£c phÃ©p Ä‘Äƒng nháº­p, Ä‘Äƒng xuáº¥t
-* [ ] Báº£o máº­t máº­t kháº©u tÃ i khoáº£n ngÆ°á»i dÃ¹ng khi Ä‘Äƒng kÃ½. Sá»§ dá»¥ng [Bcrypt](https://github.com/codahale/bcrypt-ruby).
-* [ ] Má»—i bÃ i Ä‘Äƒng cÃ³ chá»©a nhiá»u tag. VÃ  ngÆ°á»i dÃ¹ng cÃ³ thá»ƒ tÃ¬m kiáº¿m theo tag.
-* [ ] CÃ³ thá»ƒ xem bao nhiÃªu lÆ°á»£t xe á»Ÿ má»—i bÃ i Ä‘Äƒng.
+* [ ] Người dùng có thể xóa các bài đã đăng và có hiện câu hỏi yêu cầu xác nhận lại trước khi xóa.
+* [ ] Người dùng có thể tìm kiếm các bài đăng có tiêu đề chứa từ khóa người dùng đã nhập.
+* [ ] Người dùng được phép đăng nhập, đăng xuất
+* [ ] Bảo mật mật khẩu tài khoản người dùng khi đăng ký. Sủ dụng [Bcrypt](https://github.com/codahale/bcrypt-ruby).
+* [ ] Mỗi bài đăng có chứa nhiều tag. Và người dùng có thể tìm kiếm theo tag.
+* [ ] Có thể xem bao nhiêu lượt xe ở mỗi bài đăng.
 
-Danh sÃ¡ch chá»©c nÄƒng **thÃªm** Ä‘Ã£ lÃ m nhÆ°ng chÆ°a Ä‘Æ°á»£c liá»‡t kÃª á»Ÿ trÃªn:
+Danh sách chức năng **thêm** đã làm nhưng chưa được liệt kê ở trên:
 
-* [ ] NgÆ°á»i dÃ¹ng cÃ³ thá»ƒ Ä‘Äƒng nháº­p vá»›i Facebook.
-* [ ] NgÆ°á»i dÃ¹ng cÃ³ thá»ƒ block ngÆ°á»i khÃ¡c. Sau khi block, ngÆ°á»i dÃ¹ng sáº½ khÃ´ng nháº­n Ä‘Æ°á»£c tin nháº¯n tá»« ngÆ°á»i bá»‹ block gá»­i ná»¯a.
-* [ ] NgÆ°á»i dÃ¹ng cÃ³ thá»ƒ xÃ³a ngÆ°á»i dÃ¹ng khÃ¡c ra khá»i danh sÃ¡ch báº¡n.
-* [ ] NgÆ°á»i dÃ¹ng cÃ³ thá»ƒ unblock ngÆ°á»i dÃ¹ng khÃ¡c.
-* [ ] Khi ngÆ°á»i dÃ¹ng kÃ©o xuá»‘ng cuá»‘i trang, cÃ¡c tin nháº¯n tiáº¿p theo sáº½ tá»± Ä‘á»™ng hiá»ƒn thá»‹ hoáº·c cÃ³ nÃºt nháº¥n "Xem thÃªm tin nháº¯n" Ä‘á»ƒ náº¡p thÃªm danh sÃ¡ch tin nháº¯n.
-* [ ] NgÆ°á»i dÃ¹ng sáº½ nháº­n Ä‘Æ°á»£c email thÃ´ng bÃ¡o khi há» nháº­n Ä‘Æ°á»£c tin nháº¯n cÃ¹ng vá»›i link Ä‘á»ƒ xem tin nháº¯n.
-* [ ] NgÆ°á»i dÃ¹ng sáº½ nháº­n Ä‘Æ°á»£c email khi ngÆ°á»i nháº­n Ä‘Ã£ Ä‘á»c tin nháº¯n.
-* [ ] NgÆ°á»i dÃ¹ng cÃ³ thá»ƒ gá»­i tin nháº¯n cho ngÆ°á»i dÃ¹ng ngoÃ i há»‡ thá»‘ng. Khi Ä‘Ã³, ngÆ°á»i nháº­n sáº½ nháº­n Ä‘Æ°á»£c 1 email chá»©a link Ä‘Äƒng kÃ½ tÃ i khoáº£n. Sau khi Ä‘Äƒng kÃ½ tÃ i khoáº£n, há» cÃ³ thá»ƒ xem tin nháº¯n Ä‘Ã£ nháº­n.
+* [ ] Người dùng có thể đăng nhập với Facebook.
+* [ ] Người dùng có thể block người khác. Sau khi block, người dùng sẽ không nhận được tin nhắn từ người bị block gửi nữa.
+* [ ] Người dùng có thể xóa người dùng khác ra khỏi danh sách bạn.
+* [ ] Người dùng có thể unblock người dùng khác.
+* [ ] Khi người dùng kéo xuống cuối trang, các tin nhắn tiếp theo sẽ tự động hiển thị hoặc có nút nhấn "Xem thêm tin nhắn" để nạp thêm danh sách tin nhắn.
+* [ ] Người dùng sẽ nhận được email thông báo khi họ nhận được tin nhắn cùng với link để xem tin nhắn.
+* [ ] Người dùng sẽ nhận được email khi người nhận đã đọc tin nhắn.
+* [ ] Người dùng có thể gửi tin nhắn cho người dùng ngoài hệ thống. Khi đó, người nhận sẽ nhận được 1 email chứa link đăng ký tài khoản. Sau khi đăng ký tài khoản, họ có thể xem tin nhắn đã nhận.
 
-Danh sÃ¡ch chá»©c nÄƒng **phá»¥** Ä‘Ã£ lÃ m nhÆ°ng khÃ´ng Ä‘Æ°á»£c liá»‡t kÃª á»Ÿ trÃªn:
+Danh sách chức năng **phụ** đã làm nhưng không được liệt kê ở trên:
 
-CÃ¡c chuáº©n Ä‘áº§u ra cáº§n thá»±c hiá»‡n:
-* [ ] Git vá»›i Centralize Workflow
+Các chuẩn đầu ra cần thực hiện:
+* [ ] Git với Centralize Workflow
 * [ ] Git theo Feature Branch Workflow
-* [ ] Git theo Feature Branch Workflow cÃ³ Pull Request
+* [ ] Git theo Feature Branch Workflow có Pull Request
 * [ ] Git theo Gitflow Workflow
 ## Video Walkthrough
 
